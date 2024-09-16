@@ -1,0 +1,5 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<oracle.dbtools.crest.model.design.logical.LogicalDesign>
+   <object objectType="Entity" objectID="1A802516-DF39-FDC8-AC60-A500F6D2245E" name="ALUNO" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="08F93790-4988-EAE0-337E-99D63D02BDA6" propertySourceId="" propertyTargetId=""/>
+   <object objectType="Entity" objectID="29D8F750-B102-3E3C-C7B7-D755FFE432C4" name="TURMA" seqName="seg_0" propertyClassName="oracle.dbtools.crest.model.design.logical.Entity" propertyParentId="08F93790-4988-EAE0-337E-99D63D02BDA6" propertySourceId="" propertyTargetId=""/>
+</oracle.dbtools.crest.model.design.logical.LogicalDesign>

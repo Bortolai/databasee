@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A802516-DF39-FDC8-AC60-A500F6D2245E" name="ALUNO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-09 12:34:00 UTC</createdTime>
+<ownerDesignName>aula03</ownerDesignName>
+<engineerTo>
+<item key="5597AFED-12AB-CAF5-8602-06FBB86D3509" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="rm" id="9A82162F-6950-10EE-8703-B90D42942D7A">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-09 12:35:33 UTC</createdTime>
+<ownerDesignName>aula03</ownerDesignName>
+<engineerTo>
+<item key="5597AFED-12AB-CAF5-8602-06FBB86D3509" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nome_aluno" id="8AC535D6-09A0-1698-FB9D-D8B409845C2D">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-09 12:35:43 UTC</createdTime>
+<ownerDesignName>aula03</ownerDesignName>
+<engineerTo>
+<item key="5597AFED-12AB-CAF5-8602-06FBB86D3509" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_nascimento" id="BA61693D-36EF-E003-4F0A-F5AC6366C276">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-09 12:35:47 UTC</createdTime>
+<ownerDesignName>aula03</ownerDesignName>
+<engineerTo>
+<item key="5597AFED-12AB-CAF5-8602-06FBB86D3509" value="true"/>
+</engineerTo>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="genero" id="891675B1-F8B3-C838-3782-F81A85D9D694">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-09 12:36:03 UTC</createdTime>
+<ownerDesignName>aula03</ownerDesignName>
+<engineerTo>
+<item key="5597AFED-12AB-CAF5-8602-06FBB86D3509" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf" id="99218411-3B8E-5E31-FBCC-0F1D9869A477">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-09 12:36:10 UTC</createdTime>
+<ownerDesignName>aula03</ownerDesignName>
+<engineerTo>
+<item key="5597AFED-12AB-CAF5-8602-06FBB86D3509" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="ED69C1CF-7912-76BD-E88D-978A70A56494" name="ALUNO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2024-09-09 12:36:28 UTC</createdTime>
+<ownerDesignName>aula03</ownerDesignName>
+<engineerTo>
+<item key="5597AFED-12AB-CAF5-8602-06FBB86D3509" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9A82162F-6950-10EE-8703-B90D42942D7A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
